@@ -23,3 +23,6 @@ alpha       ([a-zA-Z])+
 void showError(){
     printf("Other input");
 }
+int yywrap(){
+    return 1;
+}
